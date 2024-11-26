@@ -15,7 +15,7 @@ function setupFormFields(form) {
 function handleFormChanges(evt) {
   const target = evt.target;
   if (target.name !== 'email' && target.name !== 'message') return;
-  formData[target.name] = target.value;
+  formData[target.name] = target.value.trim();
   localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
 }
 
