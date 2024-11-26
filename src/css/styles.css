@@ -8,4 +8,6 @@
 @import url('./reset.css');
 
 /* Sections style */
+@import url('./general.css');
 @import url('./gallery.css');
+@import url('./form.css');

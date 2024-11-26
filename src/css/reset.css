@@ -25,10 +25,28 @@ a {
 
 button {
   cursor: pointer;
+  font-size: inherit;
+  line-height: inherit;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+label {
+  display: block;
+}
+input[type='email'] {
+  display: block;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+textarea {
+  display: block;
+  resize: none;
+  font-size: inherit;
+  line-height: inherit;
 }
